@@ -1,0 +1,393 @@
+/* Font Header, Nav */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/* Font of Body */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(218, 28%, 13%);
+  color: aliceblue;
+}
+
+main {
+
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container-log {
+  margin-left: 5rem;
+  margin-top:  3rem;
+}
+
+.container-nav {
+  margin-right: 5rem;
+  margin-top: 3rem;
+}
+
+.container-nav nav{
+  display: flex;
+}
+
+.container-nav nav ul{
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.container-nav ul li{
+  display: flex;
+  flex-direction: row;
+  margin-right: 45px;
+  font-family: 'Raleway', sans-serif;
+  color: #c4c4c4;
+}
+
+.container-first-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-first-part-image {
+  margin-top: 3rem;
+}
+
+.section-text1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.section-text2 {
+  font-family: 'Open Sans', sans-serif;
+  color: #c4c4c4;
+  text-align: center;
+}
+
+.button-container-first {
+  margin-top: 1.5rem;
+}
+
+.button-container-first button{
+  width: 280px;
+  height: 50px;
+  border-radius: 25px;
+  border: 0;
+  cursor: pointer;
+  background-color: hsl(198, 60%, 50%);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 10rem;
+}
+
+.cards-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cards-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.subtitle {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.container-information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.container-text-information {
+  display: flex;
+  flex-direction: column;
+}
+
+.information1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.information2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #c4c4c4;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.form img{
+  margin-left: 15px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.form-text {
+  font-family: 'Open Sans', sans-serif;
+  color: hsl(176, 68%, 64%);
+}
+
+.logo-aspas {
+  margin-left: 7.7rem;
+}
+
+.cards-response {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20rem;
+}
+
+.sub-cards {
+  width: 370px;
+  height: 170px;
+  background-color: hsl(219, 30%, 18%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin-top: -1rem;
+}
+
+.cards-text-response {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #c4c4c4;
+  margin-top: 30px;
+}
+
+.persons {
+  display: flex;
+  flex-direction: row;
+}
+
+.persons img {
+  width: 25px;
+  height: 25px;
+  border-radius: 30px;
+  margin-left: -8rem;
+}
+
+.name-profission {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.person-name {
+  margin-left: 15px;
+  margin-top: -3px;
+  font-size: 12px;
+  color: #c4c4c4;
+
+}
+
+.card-div {
+  display: flex;
+  justify-content: center;
+}
+
+.container-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color:  hsl(217, 28%, 15%);
+  width: 800px;
+  height: 300px;
+  margin-top: -7rem;
+  border-radius: 8px;
+
+  position: absolute;
+}
+
+.container-card-text1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.container-card-text2 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #c4c4c4;
+  margin-top: 15px;
+}
+
+.container-card-form {
+  margin-top: 40px;
+}
+
+.container-card-form input {
+  width: 420px;
+  height: 45px;
+  border-radius: 40px;
+  padding-left: 25px;
+  border: 0;
+  margin-right: 2rem;
+}
+
+.container-card-form button {
+  width: 200px;
+  height: 45px;
+  border-radius: 40px;
+  border: 0;
+  background-color: hsl(176, 68%, 64%);
+  cursor: pointer;
+
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+footer {
+  width: 100%;
+  height: 600px;
+  background-color: hsl(216, 53%, 9%);
+}
+
+footer img {
+  margin-top: 18rem;
+  margin-left: 10rem;
+}
+
+.container-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 2rem;
+}
+
+.location p {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  color: #c4c4c4;
+  margin-top: -0.3rem;
+  margin-left: 2rem;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone-contact {
+  display: flex;
+  flex-direction: row;
+}
+
+.phone-contact p {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: #c4c4c4;
+  margin-left: 20px;
+}
+
+.email-contact {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.email-contact p {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: #c4c4c4;
+  margin-left: 20px;
+  margin-left: 20px;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+}
+
+.services nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.services nav ul li{
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: #c4c4c4;
+  cursor: pointer;
+  font-style: italic;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.talk-us {
+  display: flex;
+  flex-direction: column;
+}
+
+.talk-us nav ul {
+  text-decoration: none;
+}
+
+.talk-us nav ul li {
+  font-size: 14px;
+  font-style: italic;
+  font-family: 'Open Sans', sans-serif;
+  color: #c4c4c4;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.social-icons i {
+  margin-left: 15px;
+  cursor: pointer;
+}
